@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-bg: rgba(103, 157, 157, 0.587);
-  --color-fg: #fff;
+  --color-bg: rgba(35, 104, 104, 0.587);
+  --color-fg: #120c0c;
 
   --font-body: sans-serif;
   --font-header: 'KerakNeraka', sans-serif;
@@ -24,6 +24,7 @@
 
 html, body {
     height: 100vh;
+    
 }
 
 body {
@@ -33,12 +34,16 @@ body {
     place-items: center;
     background-color: var(--color-bg);
     z-index: -1;
+    background-image: url(../viti-i-ri.gif);
+    background-size: cover;
+  
 }
 
 main {
     text-align: center;
     padding: var(--step-1);
     z-index: 1;
+    
 }
 
 h1 {
@@ -60,4 +65,5 @@ canvas {
     top: 0;
     left: 0;
     z-index: 0;
+  
 }
